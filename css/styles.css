@@ -12,3 +12,13 @@ body {
     color: var(--primary-foreground);
     background-color: var(--primary-background);
 }
+
+/*set border-box*/
+* {
+    box-sizing: border-box;
+}
+
+/*set background and border for header*/
+header {
+    background-color: var(--secondary-background);
+}
