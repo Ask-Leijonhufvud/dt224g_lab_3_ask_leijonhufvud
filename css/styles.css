@@ -1,0 +1,14 @@
+:root {
+  /*standard colourscheme*/
+  --primary-background: #000000;
+  --secondary-background: #005700;
+  --primary-foreground: #ffffff;
+  --secondary-foreground: #00ffff;
+  /*contrast any foreground / any background > 7*/
+}
+
+/*set primary background/foreground*/
+body {
+    color: var(--primary-foreground);
+    background-color: var(--primary-background);
+}
