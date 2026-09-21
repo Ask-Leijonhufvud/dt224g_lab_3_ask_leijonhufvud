@@ -123,7 +123,7 @@ section.nara p, section.nara h2 {
 /*cards*/
 section.upplev section {
     width: 300px;
-    height: 400px;
+    height: 350px;
     background-color: var(--secondary-background);
     border-style: solid;
     border-width: 1px;
