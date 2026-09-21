@@ -72,3 +72,9 @@ section.hero div {
     align-items: center;
     justify-content: start;
 }
+
+/*text-boxes*/
+section.hero div h2, section.hero div p {
+    max-width: 82.5vw;
+    text-align: center;
+}
