@@ -44,8 +44,8 @@ header {
 
 /* HEADER LOGO*/
 img.header-logo {
-    width: 60px; /*c. 2/12*/
-    margin: 30px; /*c. 0.5/12*/
+    width: 60px;
+    margin: 30px;
 }
 
 /* NAV */
@@ -63,6 +63,24 @@ nav ul li {
 nav ul li a {
     color: var(--primary-foreground);
     text-decoration-line: none; /*funkar ej i firefox, vet ej varför*/
+}
+
+/*header layout for bigger screens*/
+@media screen and (min-width: 720px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    nav ul li {
+        border-width: 1px;
+    }
 }
 
 /* HERO IMAGE */
