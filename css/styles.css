@@ -193,6 +193,13 @@ section.upplev section img {
 
 /* SECTION: PLANERA DITT BESÖK */
 
+/*layout*/
+section.planera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*text boxes*/
 section.planera div {
     width: 82.5vw; /*c. 10/12*/
@@ -219,7 +226,6 @@ section.planera button {
 
 @media screen and (min-width: 780px) {
     section.planera {
-        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
