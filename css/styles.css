@@ -209,7 +209,9 @@ section.planera button {
     color: var(--primary-foreground);
     border-color: var(--secondary-foreground);
     width: 66vw;
+    max-width: 240px;
     height: 16.5vw;
+    max-height: 60px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.25em;
