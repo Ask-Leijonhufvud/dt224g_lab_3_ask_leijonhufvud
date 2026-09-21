@@ -120,9 +120,13 @@ section.nara p, section.nara h2 {
 
 /*layout*/
 
-/*card: vandra*/
+/*cards*/
 section.vandra {
     width: 300px;
     height: 400px;
     background-color: var(--secondary-background);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-foreground);
+    border-radius: 10px;
 }
