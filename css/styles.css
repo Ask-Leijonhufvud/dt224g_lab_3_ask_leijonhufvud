@@ -202,3 +202,14 @@ div.footer-logo div {
     flex-direction: column;
     align-items: center;
 }
+
+/* FOOTER LINKS */
+
+/*layout*/
+div.footer-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8.25vw;
+    margin: 8.25vw;
+}
