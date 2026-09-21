@@ -222,6 +222,7 @@ section.planera button {
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.25em;
+    margin: 20px;
 }
 
 @media screen and (min-width: 780px) {
