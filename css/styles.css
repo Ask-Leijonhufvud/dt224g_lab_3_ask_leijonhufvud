@@ -181,6 +181,7 @@ footer {
 /*footer-logo*/
 div.footer-logo img {
     width: 24.75vw; /*c. 3/12*/
+    margin: 4.125vw; /*c. 1/24*/;
 }
 /*logo text*/
 .title {
