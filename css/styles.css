@@ -109,8 +109,10 @@ section.hero div button {
     background-color: var(--secondary-background);
     color: var(--primary-foreground);
     border-color: var(--secondary-foreground);
-    min-width: 66vw; /*c. 8/12*/
-    min-height: 16.5vw; /*c. 2/12*/
+    width: 66vw; /*c. 8/12*/
+    max-width: 240px;
+    height: 16.5vw; /*c. 2/12*/
+    max-height: 60px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.25em;
