@@ -178,14 +178,27 @@ footer {
     border-width: 1px 0px 0px;
     border-color: var(--primary-foreground);
 }
+
 /*footer-logo*/
 div.footer-logo img {
     width: 24.75vw; /*c. 3/12*/
-    margin: 4.125vw; /*c. 1/24*/;
+    margin: 4.125vw; /*c. 1/24*/
 }
 /*logo text*/
 .title {
     font-weight: bold;
     font-size: 2rem;
     margin: 0;
+}
+/*layout: footer-logo*/
+div.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*footer logo text*/
+div.footer-logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
