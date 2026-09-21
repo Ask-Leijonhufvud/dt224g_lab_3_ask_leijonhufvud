@@ -20,6 +20,11 @@ body {
     box-sizing: border-box;
 }
 
+/*default img width not exceed container*/
+img {
+    width: 100%;
+}
+
 /*style layout*/
 
 /*layout of header*/
