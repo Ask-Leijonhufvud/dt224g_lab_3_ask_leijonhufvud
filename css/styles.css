@@ -130,3 +130,6 @@ section.upplev section {
     border-color: var(--primary-foreground);
     border-radius: 10px;
 }
+section.upplev section img {
+    border-radius: 10px 10px 0 0;
+}
