@@ -174,7 +174,9 @@ section.planera button {
 /* FOOTER */
 footer {
     background-color: var(--secondary-background);
-    
+    border-style: solid;
+    border-width: 1px 0px 0px;
+    border-color: var(--primary-foreground);
 
 /*footer-logo*/
 div.footer-logo img {
