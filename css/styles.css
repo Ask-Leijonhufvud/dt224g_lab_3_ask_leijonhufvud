@@ -218,3 +218,8 @@ div.footer-links {
 div.contact ul li a {
     color: var(--secondary-foreground);
 }
+
+/*footer nav links*/
+div.footer-nav ul li a {
+    color: var(--secondary-foreground);
+}
