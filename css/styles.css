@@ -91,7 +91,7 @@ section.hero img {
 /* HERO TEXT & BUTTON */
 
 /*layout*/
-section.hero div {
+section.hero > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,10 +99,9 @@ section.hero div {
     height: 57.75vw; /*c. 9/12*/
 }
 /*text-boxes*/
-section.hero div h2, section.hero div p {
-    max-width: 82.5vw; /*c. 10/12*/
+div.hero-text {
+    width: 82.5vw; /*c. 10/12*/
     text-align: center;
-    margin: 0;
 }
 /*hero button*/
 section.hero div button {
@@ -116,6 +115,20 @@ section.hero div button {
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.25em;
+}
+
+/*hero-section layout for bigger screen*/
+@media screen and (min-width: 700px) {
+    section.hero > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: fit-content;
+    }
+    div.hero-text {
+        max-width: 360px;
+        text-align: start;
+    }
 }
 
 /* HORIZONTAL LINE*/
