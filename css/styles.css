@@ -177,7 +177,7 @@ footer {
     border-style: solid;
     border-width: 1px 0px 0px;
     border-color: var(--primary-foreground);
-
+}
 /*footer-logo*/
 div.footer-logo img {
     width: 24.75vw; /*c. 3/12*/
