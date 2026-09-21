@@ -8,6 +8,17 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*bright mode colour theme*/
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-background: #ffffff;
+        --secondary-background: #00ff00;
+        --primary-foreground: #000000;
+        --secondary-foreground: #0000ff;
+        /*contrast any-foreground / any-background > 6*/
+    }
+}
+
 /*set primary background/foreground*/
 body {
     color: var(--primary-foreground);
