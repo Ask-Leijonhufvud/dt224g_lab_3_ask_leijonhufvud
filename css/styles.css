@@ -51,12 +51,13 @@ img.header-logo {
 /* NAV */
 ul {
     list-style-type: none;
+    padding: 0;
 }
 nav ul li {
     display: block;
     padding: 0.5em;
     border-color: var(--primary-foreground);
-    border-width: 1px 0px 1px 1px;
+    border-width: 1px 0px;
     border-style: solid;
 }
 nav ul li a {
