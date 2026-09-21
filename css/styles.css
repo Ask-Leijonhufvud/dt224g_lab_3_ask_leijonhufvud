@@ -71,12 +71,14 @@ section.hero div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
+    height: 57.75vw; /*c. 9/12*/
 }
 /*text-boxes*/
 section.hero div h2, section.hero div p {
     max-width: 82.5vw; /*c. 10/12*/
     text-align: center;
+    margin: 0;
 }
 /*hero button*/
 section.hero div button {
@@ -86,7 +88,6 @@ section.hero div button {
     min-width: 66vw; /*c. 8/12*/
     min-height: 16.5vw; /*c. 2/12*/
     border-radius: 10px;
-    margin: 4.125vw; /*c. 1/24*/
     font-weight: bold;
     font-size: 1.25em;
 }
@@ -97,4 +98,15 @@ hr {
 }
 
 /* SECTION: NÄRA TILL NATUREN */
-
+section.nara {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 57.75vw; /*c. 9/12*/
+}
+section.nara p, section.nara h2 {
+    text-align: center;
+    margin: 0;
+}
