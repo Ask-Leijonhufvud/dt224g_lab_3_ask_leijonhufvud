@@ -110,3 +110,13 @@ section.nara p, section.nara h2 {
     text-align: center;
     margin: 0;
 }
+
+/* SECTION: UPPLEV */
+
+/*layout*/
+
+/*card: vandra*/
+section.vandra {
+    width: 300px;
+    height: 400px;
+}
