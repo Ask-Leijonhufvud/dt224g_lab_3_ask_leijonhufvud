@@ -144,10 +144,13 @@ section.nara {
     align-items: center;
     justify-content: space-evenly;
     height: 57.75vw; /*c. 9/12*/
+    max-height: 240px;
 }
 section.nara p, section.nara h2 {
     text-align: center;
     margin: 0;
+    width: 82.5vw; /*c. 10/12*/
+    max-width: 720px;
 }
 
 /* SECTION: UPPLEV */
