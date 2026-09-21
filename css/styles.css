@@ -177,3 +177,8 @@ section.planera button {
 div.footer-logo img {
     width: 24.75vw; /*c. 3/12*/
 }
+/*logo text*/
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}
