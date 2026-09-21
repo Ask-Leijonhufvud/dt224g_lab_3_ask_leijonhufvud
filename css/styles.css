@@ -145,3 +145,15 @@ section.upplev section {
 section.upplev section img {
     border-radius: 10px 10px 0 0;
 }
+
+/* SECTION: PLANERA DITT BESÖK */
+
+/*text boxes*/
+section.planera div {
+    width: 82.5vw; /*c. 10/12*/
+    margin: auto;
+}
+section.planera div h2 {
+    width: 100%;
+    text-align: center;
+}
