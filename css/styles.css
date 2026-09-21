@@ -57,3 +57,10 @@ nav ul li a {
     color: var(--primary-foreground);
     text-decoration-line: none; /*verkar inte ha effekt, vet ej varför*/
 }
+
+/* HERO IMAGE */
+section.hero img {
+    width: 100%;
+}
+
+/* HERO TEXT & BUTTON */
