@@ -72,9 +72,20 @@ section.hero div {
     align-items: center;
     justify-content: start;
 }
-
 /*text-boxes*/
 section.hero div h2, section.hero div p {
-    max-width: 82.5vw;
+    max-width: 82.5vw; /*c. 10/12*/
     text-align: center;
+}
+/*hero button*/
+section.hero div button {
+    background-color: var(--secondary-background);
+    color: var(--primary-foreground);
+    border-color: var(--secondary-foreground);
+    min-width: 66vw; /*c. 8/12*/
+    min-height: 16.5vw; /*c. 2/12*/
+    border-radius: 10px;
+    margin: 4.125vw; /*c. 1/24*/
+    font-weight: bold;
+    font-size: 1.25em;
 }
