@@ -213,3 +213,8 @@ div.footer-links {
     gap: 8.25vw;
     margin: 8.25vw;
 }
+
+/*contact-links*/
+div.contact ul li a {
+    color: var(--secondary-foreground);
+}
