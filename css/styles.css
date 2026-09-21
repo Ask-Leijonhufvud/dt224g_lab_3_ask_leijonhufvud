@@ -5,6 +5,7 @@
   --primary-foreground: #ffffff;
   --secondary-foreground: #00ffff;
   /*contrast any foreground / any background > 7*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*set primary background/foreground*/
