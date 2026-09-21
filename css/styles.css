@@ -52,7 +52,7 @@ img.header-logo {
 ul {
     list-style-type: none;
 }
-li {
+nav ul li {
     display: block;
     padding: 0.5em;
     border-color: var(--primary-foreground);
