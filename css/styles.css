@@ -170,3 +170,10 @@ section.planera button {
     font-weight: bold;
     font-size: 1.25em;
 }
+
+/* FOOTER */
+
+/*footer-logo*/
+div.footer-logo img {
+    width: 24.75vw; /*c. 3/12*/
+}
