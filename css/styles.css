@@ -119,6 +119,18 @@ section.nara p, section.nara h2 {
 /* SECTION: UPPLEV */
 
 /*layout*/
+section.upplev h2 {
+    width: 100%;
+    text-align: center;
+}
+section.upplev div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8.25vw; /*c. 1/12*/
+    margin: 8.25vw; /*c. 1/12*/
+    align-items: center;
+}
 
 /*cards*/
 section.upplev section {
