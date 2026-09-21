@@ -165,4 +165,5 @@ section.planera button {
     border-color: var(--secondary-foreground);
     width: 66vw;
     height: 16.5vw;
+    border-radius: 10px;
 }
