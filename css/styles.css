@@ -265,6 +265,27 @@ div.footer-logo div {
     align-items: center;
 }
 
+/*footer layout for bigger screens*/
+@media screen and (min-width: 900px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    div.footer-logo {
+        flex-direction: row;
+    }
+    div.footer-logo > img {
+        width: 180px;
+        margin: 30px;
+    }
+    footer > div.footer-links {
+        display: contents;
+        width: fit-content;
+    }
+}
+
 /* FOOTER LINKS */
 
 /*layout*/
