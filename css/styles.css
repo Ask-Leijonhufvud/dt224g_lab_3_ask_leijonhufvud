@@ -90,3 +90,11 @@ section.hero div button {
     font-weight: bold;
     font-size: 1.25em;
 }
+
+/* HORIZONTAL LINE*/
+hr {
+    color: var(--primary-foreground);
+}
+
+/* SECTION: NÄRA TILL NATUREN */
+
