@@ -11,6 +11,7 @@
 body {
     color: var(--primary-foreground);
     background-color: var(--primary-background);
+    margin: 0;
 }
 
 /*set border-box*/
@@ -18,7 +19,41 @@ body {
     box-sizing: border-box;
 }
 
+/*style layout*/
+
+/*layout of header*/
+div.header-logo-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /*set background and border for header*/
 header {
     background-color: var(--secondary-background);
+    border-color: var(--primary-foreground);
+    border-width: 0px 0px 2px;
+    border-style: solid;
+}
+
+/* HEADER LOGO*/
+img.header-logo {
+    width: 60px; /*c. 2/12*/
+    margin: 30px; /*c. 0.5/12*/
+}
+
+/* NAV */
+ul {
+    list-style-type: none;
+}
+li {
+    display: block;
+    padding: 0.5em;
+    border-color: var(--primary-foreground);
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+}
+nav ul li a {
+    color: var(--primary-foreground);
+    text-decoration-line: none; /*verkar inte ha effekt, vet ej varför*/
 }
