@@ -172,6 +172,9 @@ section.planera button {
 }
 
 /* FOOTER */
+footer {
+    background-color: var(--secondary-background);
+    
 
 /*footer-logo*/
 div.footer-logo img {
