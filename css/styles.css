@@ -19,6 +19,22 @@
     }
 }
 
+/*switch logos dark/bright-mode*/
+img.bright-mode {
+    display: none
+}
+img.dark-mode {
+    display: block;
+}
+@media (prefers-color-scheme: light) {
+    img.bright-mode {
+        display: block;
+    }
+    img.dark-mode {
+        display: none;
+    }
+}
+
 /*set primary background/foreground*/
 body {
     color: var(--primary-foreground);
